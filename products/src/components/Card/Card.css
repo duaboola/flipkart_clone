@@ -1,0 +1,328 @@
+@media only screen and (min-width: 601px){
+    .card__pc {
+        padding: 20px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        position:relative;
+        top: -655px;
+        left: 270px;
+        border-bottom: 1px solid #f0f0f0;
+        background-color: white;
+        width: 1208px;
+        height: 300px;
+        overflow: hidden;
+    }
+    .card__mob {
+        display: none;
+        visibility: hidden;
+    }
+    .card__pc > img {
+        height: 160px;
+        position: relative;
+        top: 00px;
+        
+    }
+    .card__pc > .MuiSvgIcon-root{
+        position: relative;
+        top: -135px; 
+        left: -10px; 
+        color: #dddcdc;
+        padding:0;
+        margin:0;
+        width: 20px;
+    }
+    .card__title {
+        position: relative;
+        font-size: large;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        position: relative;
+        top: 120px;
+    }
+    .card__title:hover {
+        color: #2874f0;
+    }
+    .card_L { 
+        position: rabsolute;
+        right: 0px;
+        padding:0;
+        margin:0;
+    }
+    .card__rating {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        position: relative;
+        top: 100px;
+        padding:0;
+        margin:0;
+    }
+    .rating {
+        background-color: green;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 30px;
+        border-radius: 5px;
+    }
+    .rating > p{
+        width: 5px;
+        position: relative;
+        left: -2px;
+    }
+    .rating > .MuiSvgIcon-root {
+        width: 15px;
+        position: relative;
+        left: 2px;
+    }
+    .review {
+        color: grey;
+    }
+    .card__description {
+        display: block;
+        align-items: center;
+        justify-content: left;
+        width: 600px;
+        padding:0;
+        margin:0;
+        position: relative;
+        top: 120px;
+    }
+    .ds1, .ds2, .ds3, .ds4, .ds5, .ds6 {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        margin-top: -20px;
+    }
+
+    .ds1 > .MuiSvgIcon-root, .ds2 > .MuiSvgIcon-root, .ds3 > .MuiSvgIcon-root, .ds4 > .MuiSvgIcon-root, .ds5 > .MuiSvgIcon-root, .ds6 > .MuiSvgIcon-root {
+        position: relative;
+        width: 5px;
+        height: 5px;
+        color: gray;
+    }
+    .card__R {
+        position: relative;
+        left: 300px;
+        top: -170px;
+        padding:0;
+        margin:0;
+    }
+    .p2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: -30px;
+    }
+    .p2 > h5{
+        text-decoration: line-through;
+        color: gray;
+    }
+    .p2 > p {
+        color: green;
+    } 
+    .p3 {
+        position: relative;
+        top: -60px;
+    }
+    .p3 > p{
+        color: green;
+        font-weight: bold;
+        position: relative;
+        top: -10px;
+    }
+    .assured {
+        position: relative;
+        left: 500px;
+        top: -370px;
+        padding:0;
+        margin:0;
+    }
+    .assured > img {
+        position: relative;
+        width: 100px;
+    }
+    .compare {
+        position: relative;
+        top: -150px;
+        left: -500px;
+        padding:0;
+        margin:0;
+    }
+}
+@media only screen and (max-width: 600px){
+    .card__pc{
+        display: none;
+        visibility: hidden;
+    }
+    .card__mob {
+        position: relative;
+        overflow: hidden;
+        border-bottom: 1px solid #f0f0f0;
+        background-color: white;
+        height: 430px;
+    }
+    .card__mob > img {
+        width: 100px;
+        position: relative;
+        left: -200px;
+        top: 50px;
+    }
+    .Circle {
+        color: #f8f5f5;
+        position: relative;
+        top: -575px;
+        left: 200px;
+
+    }
+    .Circle > .MuiSvgIcon-root {
+        width: 200px;
+        height: 40px;
+    }
+    .Heart {
+        color: #dddcdc;
+        position: relative;
+        top: -610px;
+        left: 200px;
+    }
+    .card__title {
+        position: relative;
+        font-size: medium;
+        font-weight: 100;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        position: relative;
+        top: -50px;
+        left: 120px;
+    }
+    .card__title:hover {
+        color: #2874f0;
+    }
+    .card_L { 
+        position: rabsolute;
+        right: 0px;
+        padding:0;
+        margin:0;
+    }
+    .card__rating {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        position: relative;
+        top: -70px;
+        left: 120px;
+        padding:0;
+        margin:0;
+    }
+    .rating {
+        background-color: green;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 30px;
+        border-radius: 5px;
+    }
+    .rating > p{
+        width: 5px;
+        position: relative;
+        left: -2px;
+    }
+    .rating > .MuiSvgIcon-root {
+        width: 15px;
+        position: relative;
+        left: 2px;
+    }
+    .review {
+        color: grey;
+    }
+    .card__description {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        position: relative;
+        top: 0px;
+        flex-wrap: wrap;
+    }
+    .card__description > * {
+        font-size: small;
+    }
+    .ds1, .ds2, .ds3, .ds4, .ds5, .ds6 {
+        display: flex;
+        align-items: baseline;
+        justify-content: left;
+        color: gray;
+        padding: 5px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        border:1px solid #dddcdc;
+        flex: 1 1 140px;
+        overflow: hidden;
+    }
+    .card__R {
+        position: relative;
+        left: 0px;
+        top: -280px;
+        padding:0;
+        margin:0;
+    }
+    .p2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: -30px;
+        left: -50px;
+    }
+    .p2 > h4{
+        text-decoration: line-through;
+        color: gray;
+    }
+    .p2 > p {
+        color: green;
+    } 
+    .p1 {
+        position: relative;
+        top: 0px;
+        left: 10px;
+    }
+    .p3 > h6 {
+        position: relative;
+        top: -70px;
+        left: -90px;
+    }
+    .p3 > p{
+        color: green;
+        font-weight: bold;
+        position: relative;
+        top: -90px;
+        left: -83px;
+    }
+    .assured {
+        position: relative;
+        left: 500px;
+        top: -370px;
+        padding:0;
+        margin:0;
+    }
+    .assured > img {
+        position: relative;
+        width: 100px;
+    }
+    .compare {
+        position: relative;
+        top: -150px;
+        left: -500px;
+        padding:0;
+        margin:0;
+    }
+}

@@ -1,0 +1,48 @@
+@media only screen and (min-width: 601px){
+    .navbar__pc {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: white;
+    }
+    .navbar__mob{
+        display: none;
+        visibility: hidden;
+    }
+    .one, .two, .three, .four, .five, .six, .seven, .eight, .nine {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    .one > .MuiSvgIcon-root ,.two >.MuiSvgIcon-root, .three > .MuiSvgIcon-root, .four > .MuiSvgIcon-root, .five > .MuiSvgIcon-root, .six > .MuiSvgIcon-root{
+        color: gray;
+    }
+    .one:hover, .two:hover, .three:hover, .four:hover, .five:hover, .six:hover, .seven:hover, .eight:hover, .nine :hover {
+        color: #2874f0;
+    }
+    .one > .MuiSvgIcon-root:hover, .two > .MuiSvgIcon-root:hover, .three > .MuiSvgIcon-root:hover, .four > .MuiSvgIcon-root:hover, .five > .MuiSvgIcon-root:hover, .six > .MuiSvgIcon-root :hover, .seven > .MuiSvgIcon-root :hover{
+        transition: transform 0.2s;
+        color: #2874f0;
+        transform: rotate(180deg) translateY(-3px) translateX(-3px);
+    }
+} 
+@media only screen and (max-width: 600px) {
+    .navbar__pc {
+        display: none;
+        visibility: hidden;
+    }
+    .navbar__mob {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: white;
+        overflow: hidden;
+    }
+    .one_m , .two_m , .three_m {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border: 1px solid #f0f0f0;
+        width: 33%;
+    }
+}

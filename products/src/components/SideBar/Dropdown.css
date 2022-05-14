@@ -1,0 +1,37 @@
+.brand {
+    position: relative;
+    top: -50px;
+    left: -80px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.brand_title > .MuiSvgIcon-root {
+    position: relative;
+    top: -45px;
+    left: 180px;
+}
+.brand__body {
+    position: relative;
+    top: -20px;
+}
+.customer {
+    border-bottom: 1px solid #f0f0f0;
+}
+.customer_title > h5 {
+    position: relative;
+    top: -50px;
+    left: -40px;
+}
+.customer_title > .MuiSvgIcon-root {
+    position: relative;
+    top: -95px;
+    left: 90px;
+}
+.customer__body {
+    position: relative;
+    top: -50px;
+    left: -40px;
+    display: block;
+    align-items: baseline;
+    justify-content: left;
+
+}

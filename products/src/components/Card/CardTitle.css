@@ -1,0 +1,66 @@
+@media only screen and (min-width: 601px){
+.CardTitle{
+    background-color: white;
+    padding-top: 0px;
+    padding-left: 20px;
+    border: grey;
+    position: relative;
+    top: -662px;
+    left : 270px;
+    height: 140px;
+    border-bottom: 1px solid #f0f0f0;
+    width: 1228px;  
+}
+.ct_one {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: gray;
+
+}
+.ct_one > .MuiSvgIcon-root{
+    width: 10px;
+    height: 10px;
+}
+.ct_one > p, .ct_two > p {
+    font-size: 12px;
+}
+.ct_two {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: #2874f0;
+    position: relative;
+    top: -10px;
+}
+.ct_three {
+    display: flex;
+    align-items: baseline;
+    justify-content: left;
+    position: relative;
+    top: -30px;
+}
+.ct_three > p{
+    color: grey;
+    font-size: 12px;
+}
+.ct_four {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+}
+@media only screen and (max-width: 600px){
+    .CardTitle {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+
+
+
+
+
+
+
